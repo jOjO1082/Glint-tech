@@ -449,3 +449,756 @@
 .call-to-action-section .button-container{
   padding-bottom: 8rem;
 }
+
+
+/* Media Query TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio-hero-section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      padding: var(--tab-padding);
+      justify-content: flex-start;
+      align-items: flex-start;
+      /* background-color:aqua; */
+    }
+  
+    .portfolio-text {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .portfolio-text h2 {
+      font-size: 4rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+  
+    .portfolio-text span {
+      font-size: 4rem;
+      color: var(--secondary-color);
+    }
+  
+    .portfolio-text p {
+      font-size: 2rem;
+      color: var(--dark-color);
+    }
+  
+    /* Branding Projects section */
+    .branding-projects-section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.625rem;
+      padding: var(--tab-padding);
+    }
+  
+    .branding-projects-header {
+      width: 100%;
+      height: auto;
+      background-color: var(--light-color);
+      padding: 1rem 1rem;
+      color: var(--primary-color);
+    }
+  
+    .branding-projects-cards-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  
+    .branding-project-card {
+      width: 48%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-image: url(/public/images/potfolio-page-brandin-image.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 8rem;
+      gap: 1rem;
+      position: relative;
+    }
+  
+    .project-tag {
+      width: fit-content;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.5rem;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      padding: 0.5rem;
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      font-size: 1rem;
+      font-weight: 500;
+  
+      background: rgba(7, 125, 93, 0.3);
+      /* Semi-transparent background */
+      backdrop-filter: blur(10px);
+      /* Blur effect */
+      -webkit-backdrop-filter: blur(10px);
+      /* For Safari */
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      /* Slight border for glassy effect */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      /* Soft shadow */
+    }
+  
+  
+  
+    /* FrontEnd Projects section */
+    .frontend-project-section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.625rem;
+      padding: var(--tab-padding);
+      margin-bottom: 2rem;
+    }
+  
+    .frontend-project-header {
+      width: 100%;
+      height: auto;
+      background-color: var(--light-color);
+      padding: 1rem 1rem;
+      color: var(--primary-color);
+    }
+  
+    .front-end-projects-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+  
+    .front-end-project-card {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-image: url(/public/images/potfolio-page-brandin-image.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 11rem;
+      gap: 1rem;
+      position: relative;
+    }
+  
+    /* Media projects section */
+  
+    .media-project-section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 2rem;
+      padding: var(--tab-padding);
+    }
+  
+    .media-project-header-container {
+      width: 100%;
+      height: auto;
+      background-color: var(--light-color);
+      padding: 1rem 1rem;
+      color: var(--primary-color);
+    }
+  
+    .media-content-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: stretch;
+      gap: 1rem;
+    }
+  
+    .wide-vidoe-container {
+      width: 75%;
+      height: auto;
+    }
+  
+    .video-descripiton-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .right-details {
+      width: fit-content;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 0.3rem;
+    }
+  
+    .right-details h3 {
+      font-size: 0.9rem;
+      color: var(--primary-color);
+    }
+  
+    .right-details p {
+      font-size: 0.8rem;
+      color: var(--dark-color);
+    }
+  
+    .left-details {
+      width: fit-content;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-self: start;
+    }
+  
+    .left-details h4 {
+      font-size: 0.7rem;
+      font-weight: 400;
+      color: var(--primary-color);
+    }
+  
+    .left-details span i {
+      font-size: 0.7rem;
+      color: var(--dark-color);
+    }
+  
+    .left-details i {
+      font-size: 1rem;
+      color: var(--primary-color);
+    }
+  
+    .small-vidoe-container {
+      width: 25%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      gap: 2rem;
+    }
+  
+    .left-details {
+      width: fit-content;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .left-details span {
+      font-size: 0.7rem;
+      color: var(--dark-color);
+    }
+  
+    /* More branidng projects header */
+  
+    .more-branding-projects-section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 2rem;
+      padding: var(--tab-padding);
+    }
+  
+    .more-branding-projects-header {
+      width: 100%;
+      height: auto;
+      background-color: var(--light-color);
+      padding: 1rem 1rem;
+      color: var(--primary-color);
+    }
+  
+    .images-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 1rem;
+    }
+  
+    .column {
+      width: 32.5%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .column img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Call to action section */
+  
+    .call-to-action-section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding: var(--tab-padding);
+      background: linear-gradient(rgba(20, 15, 77, 0.8), rgba(22, 18, 80, 0.8)), url(/images/cta.jpg);
+      background-position: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 4rem;
+    }
+  
+  
+    .cta-text-container {
+      width: 60%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--light-color);
+      padding: 8rem 0 0 0;
+    }
+  
+    .cta-text-container h2 {
+      font-size: 3rem;
+      color: var(--light-color);
+      text-align: center;
+  
+    }
+  
+    .cta-text-container p {
+      font-size: 1.2rem;
+      color: var(--light-color);
+      line-height: 1.5;
+      text-align: center;
+    }
+  
+    .call-to-action-section .button-container {
+      padding-bottom: 8rem;
+    }
+}
+
+/* Mobile Resonponsiveness */
+
+@media screen and (max-width: 768px){
+  
+      .portfolio-hero-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: var(--mobile-padding);
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* background-color:aqua; */
+      }
+  
+      .portfolio-text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+  
+      .portfolio-text h2 {
+        font-size: 4rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        line-height: 4rem;
+      }
+  
+      .portfolio-text span {
+        font-size: 4rem;
+        color: var(--secondary-color);
+      }
+  
+      .portfolio-text p {
+        font-size: 2rem;
+        color: var(--dark-color);
+      }
+  
+      /* Branding Projects section */
+      .branding-projects-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.625rem;
+        padding: var(--mobile-padding);
+      }
+  
+      .branding-projects-header {
+        width: 100%;
+        height: auto;
+        background-color: var(--light-color);
+        padding: 1rem 1rem;
+        color: var(--primary-color);
+      }
+  
+      .branding-projects-cards-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+  
+      .branding-project-card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-image: url(/public/images/potfolio-page-brandin-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 8rem;
+        gap: 1rem;
+        position: relative;
+      }
+  
+      .project-tag {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.5rem;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        padding: 0.5rem;
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        font-size: 1rem;
+        font-weight: 500;
+  
+        background: rgba(7, 125, 93, 0.3);
+        /* Semi-transparent background */
+        backdrop-filter: blur(10px);
+        /* Blur effect */
+        -webkit-backdrop-filter: blur(10px);
+        /* For Safari */
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        /* Slight border for glassy effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Soft shadow */
+      }
+  
+  
+  
+      /* FrontEnd Projects section */
+      .frontend-project-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.625rem;
+        padding: var(--mobile-padding);
+        margin-bottom: 2rem;
+      }
+  
+      .frontend-project-header {
+        width: 100%;
+        height: auto;
+        background-color: var(--light-color);
+        padding: 1rem 1rem;
+        color: var(--primary-color);
+      }
+  
+      .front-end-projects-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+  
+      .front-end-project-card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-image: url(/public/images/potfolio-page-brandin-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 11rem;
+        gap: 1rem;
+        position: relative;
+      }
+  
+      /* Media projects section */
+  
+      .media-project-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: var(--mobile-padding);
+      }
+  
+      .media-project-header-container {
+        width: 100%;
+        height: auto;
+        background-color: var(--light-color);
+        padding: 1rem 1rem;
+        color: var(--primary-color);
+      }
+  
+      .media-content-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+  
+      .wide-vidoe-container {
+        width: 100%;
+        height: auto;
+      }
+  
+      .video-descripiton-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .right-details {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.3rem;
+      }
+  
+      .right-details h3 {
+        font-size: 0.9rem;
+        color: var(--primary-color);
+      }
+  
+      .right-details p {
+        font-size: 0.8rem;
+        color: var(--dark-color);
+      }
+  
+      .left-details {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: start;
+      }
+  
+      .left-details h4 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: var(--primary-color);
+      }
+  
+      .left-details span i {
+        font-size: 0.7rem;
+        color: var(--dark-color);
+      }
+  
+      .left-details i {
+        font-size: 1rem;
+        color: var(--primary-color);
+      }
+  
+      .small-vidoe-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 2rem;
+      }
+  
+      .left-details {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .left-details span {
+        font-size: 0.7rem;
+        color: var(--dark-color);
+      }
+  
+      /* More branidng projects header */
+  
+      .more-branding-projects-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: var(--mobile-padding);
+      }
+  
+      .more-branding-projects-header {
+        width: 100%;
+        height: auto;
+        background-color: var(--light-color);
+        padding: 1rem 1rem;
+        color: var(--primary-color);
+      }
+  
+      .images-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+  
+      .column {
+        width: 48%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+  
+      .column img {
+        width: 100%;
+        height: auto;
+      }
+  
+      /* Call to action section */
+  
+      .call-to-action-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: var(--mobile-padding);
+        background: linear-gradient(rgba(20, 15, 77, 0.8), rgba(22, 18, 80, 0.8)), url(/images/cta.jpg);
+        background-position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 4rem;
+      }
+  
+  
+      .cta-text-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--light-color);
+        padding: 8rem 0 0 0;
+      }
+  
+      .cta-text-container h2 {
+        font-size: 2rem;
+        color: var(--light-color);
+        text-align: center;
+  
+      }
+  
+      .cta-text-container p {
+        font-size: 1rem;
+        color: var(--light-color);
+        line-height: 1.5;
+        text-align: center;
+      }
+  
+      .call-to-action-section .button-container {
+        padding-bottom: 8rem;
+      }
+  }
